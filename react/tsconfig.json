@@ -1,0 +1,19 @@
+{
+  "extends": "@vtex/tsconfig",
+  "compilerOptions": {
+    "noEmitOnError": false,
+    "skipLibCheck": true,  // Ignores library checks
+    "strict": false,      // Disables all strict checks
+    "noImplicitAny": false,
+    "jsx": "preserve",    // Bypasses JSX compilation (leaves it as-is)
+    "lib": ["dom"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es2017"
+  },
+  "include": [
+    "./typings/*.d.ts",
+    "./**/*.tsx",
+    "./**/*.ts"
+  ]
+}

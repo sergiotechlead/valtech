@@ -1,0 +1,19 @@
+{
+  "admin.app.cookie-fortune": {},
+  "admin.app.cookie-fortune.cookie-fortune-management": {
+    "component": "CookieFortuneManagementPage",
+    "path": "/admin/app/cookie-fortune-management"
+  },
+  "admin.app.cookie-fortune.cookie-fortune-detail": {
+    "component": "CookieFortuneDetailPage",
+    "path": "/admin/app/cookie-fortune-management/:id"
+  },
+  "admin.app.cookie-fortune.cookie-fortune-edit": {
+    "component": "CookieFortuneEditPage",
+    "path": "/admin/app/cookie-fortune-management/:id/edit"
+  },
+  "admin.app.cookie-fortune.cookie-fortune-add": {
+    "component": "CookieFortuneAddPage",
+    "path": "/admin/app/cookie-fortune-management/add"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "section": "other",
+  "titleId": "admin/navigation.label",
+  "subSectionItems": [
+    {
+      "labelId": "admin/navigation.cookie-fortune.label",
+      "path": "/admin/cookie-fortune-management"
+    }
+  ]
+}

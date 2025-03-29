@@ -1,11 +1,14 @@
 {
-  "vendor": "vtex",
+  "vendor": "valtech",
   "name": "store-theme",
   "version": "5.2.0",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
     "sitemap": "0.x",
+    "react": "3.x",
+    "admin": "0.x",
+    "messages": "1.x",
     "docs": "0.x"
   },
   "mustUpdateAt": "2018-09-05",
