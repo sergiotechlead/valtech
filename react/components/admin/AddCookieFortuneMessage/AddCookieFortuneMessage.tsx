@@ -32,7 +32,6 @@ export const AddCookieFortuneMessage = () => {
       setLoading(true)
       window.location.reload()
     }
-    console.log("UseEffect 1")
   }, [creationCompleted])
 
 

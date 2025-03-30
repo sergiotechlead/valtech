@@ -34,7 +34,6 @@ export const DeleteButton = ({ item }) => {
     if (item.id) {
       deleteCookieFortuneMessage()
     }
-    console.log("item.id")
   }, [item.id, deleteCookieFortuneMessage])
 
   return (

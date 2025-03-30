@@ -1,4 +1,40 @@
-# Store theme
+# Store Theme with Cookie Fortune Implementation
+
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+This project extends the VTEX IO Store Theme boilerplate with a Cookie Fortune implementation as part of a technical challenge. It includes:
+- React components for the frontend experience
+- Admin interface for managing fortune cookie messages
+- Integrated with VTEX Master Data using GraphQL
+
+## Preview
+
+### Frontend Implementation and Admin Interface
+![Cookie Fortune Frontend](https://user-images.githubusercontent.com/.../demo-speed.gif)  
+*GIF showing the user journey from homepage banner to fortune display*
+
+## Implementation Details
+
+### Cookie Fortune Feature
+- Banner on homepage redirects to `/cookie-fortune`
+- Interactive component that:
+  - Shows spinner while loading
+  - Displays random fortune from Master Data
+  - Generates lucky number in XX-XX-XXXX format
+  - Built with React and VTEX Store Framework
+
+### Admin App
+- Table displaying all fortune messages
+- Interface to add new messages
+- Delete functionality
+
+## How to Access
+- Frontend: https://devsergio--valtech.myvtex.com/cookie-fortune
+- Admin: Accessible through VTEX Admin panel
+
+## Store theme
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->

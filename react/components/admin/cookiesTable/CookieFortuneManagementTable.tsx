@@ -126,7 +126,6 @@ const CookieFortuneManagementTable: FC = () => {
 
   // Controls the loading state of the table
   useEffect(() => {
-    console.log("UseEffect 4")
     if (loading && view && view.status !== 'loading') {
       view.setStatus({
         type: 'loading',

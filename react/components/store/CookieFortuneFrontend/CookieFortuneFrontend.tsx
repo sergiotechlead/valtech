@@ -47,8 +47,13 @@ const CSS_HANDLES = [
 export default function CookieFortuneFrontend(): JSX.Element {
 
   const { handles } = useCssHandles(CSS_HANDLES)
+  const [searchForCookieFortunes, setSearchForCookieFortunes] = useState(Number(Math.floor(Math.random() * (500 - 300 + 1)) + 300))
 
-  const { data: cookieFortunes, loading: queryLoading, error } = useQuery(GET_FORTUNE_MESSAGES);
+  const { data: cookieFortunes, error } = useQuery(GET_FORTUNE_MESSAGES,{
+      variables: {
+        page: 1,
+        pageSize: searchForCookieFortunes
+}});
 
   const [fortune, setFortune] = useState<string | null>(null);
   const [luckyNumber, setLuckyNumber] = useState<string | null>(null);
@@ -59,14 +64,12 @@ export default function CookieFortuneFrontend(): JSX.Element {
   const [fortunes, setFortunes] = useState<string[]>([]);
 
   useEffect(() => {
-    console.log("UseEffect 5")
     if(cookieFortunes){
       setFortunes(getCookieFortunes(cookieFortunes))
     }
   }, [cookieFortunes])
 
   useEffect(() => {
-    console.log("UseEffect 6")
     setIsComponentReady(true)
   }, [])
 
@@ -76,6 +79,7 @@ export default function CookieFortuneFrontend(): JSX.Element {
   }
 
   const fetchFortune = (): void => {
+    setSearchForCookieFortunes(Number(Math.floor(Math.random() * (500 - 300 + 1)) + 300))
     setIsLoading(true);
     setIsCookieOpen(false);
     setAnimateCookie(false); // Reset animation state
@@ -91,9 +95,9 @@ export default function CookieFortuneFrontend(): JSX.Element {
       setLuckyNumber(`${part1}-${part2}-${part3}`);
 
       setIsCookieOpen(true);
-      setAnimateCookie(true); // Trigger animation
+      setAnimateCookie(true);
       setIsLoading(false);
-    }, 10);
+    }, 500);
   };
 
   return (
@@ -135,8 +139,8 @@ export default function CookieFortuneFrontend(): JSX.Element {
             <div className={`${handles.fortuneButton} ${isCookieOpen ? handles.newFortuneButton : ''}`}>
               <Button
                 onClick={fetchFortune}
-                disabled={isLoading || queryLoading}
-                isLoading={isLoading || queryLoading}
+                disabled={isLoading}
+                isLoading={isLoading}
                 variation="primary"
                 size="large"
               >
