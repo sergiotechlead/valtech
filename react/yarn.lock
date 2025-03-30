@@ -5742,6 +5742,10 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
+"valtech.store-theme@https://devsergio--valtech.myvtex.com/_v/private/typings/linked/v1/valtech.store-theme@5.2.0+build1743290273/public/@types/valtech.store-theme":
+  version "5.2.0"
+  resolved "https://devsergio--valtech.myvtex.com/_v/private/typings/linked/v1/valtech.store-theme@5.2.0+build1743290273/public/@types/valtech.store-theme#4dfee008adaf41afe68e707ccd32fb4981b795ff"
+
 verror@1.10.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/verror/-/verror-1.10.0.tgz#3a105ca17053af55d6e270c1f8288682e18da400"
@@ -5774,6 +5778,10 @@ verror@1.10.0:
 "vtex.css-handles@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@1.0.1/public/@types/vtex.css-handles":
   version "1.0.1"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@1.0.1/public/@types/vtex.css-handles#9444e64afad49e3ace3461f170b7d28f29b78d07"
+
+"vtex.disclosure-layout@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.disclosure-layout@1.0.3/public/@types/vtex.disclosure-layout":
+  version "1.0.3"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.disclosure-layout@1.0.3/public/@types/vtex.disclosure-layout#15590cd6a3f23e5a7591d76ad1a44b5c0c6a088a"
 
 "vtex.flex-layout@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.flex-layout@0.21.4/public/@types/vtex.flex-layout":
   version "0.21.4"

@@ -23,7 +23,10 @@
       "images": [
         {
           "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png",
+          "link":{
+            "url": "/cookie-fortune"
+          }
         },
         {
           "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",

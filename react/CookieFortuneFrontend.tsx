@@ -1,2 +1,2 @@
-import { CookieFortuneFrontend } from "./components/store/CookieFortuneFrontend/CookieFortuneFrontend";
+import CookieFortuneFrontend from "./components/store/CookieFortuneFrontend/CookieFortuneFrontend";
 export default CookieFortuneFrontend

@@ -4,6 +4,7 @@
   "scripts": {
     "test": "vtex-test-tools test --collectCoverage"
   },
+  "license": "MIT",
   "dependencies": {
     "@vtex/admin-formik": "^0.4.1",
     "@vtex/admin-ui": "^0.133.6",
@@ -32,12 +33,14 @@
     "apollo-cache-inmemory": "^1.6.5",
     "graphql": "^14.6.0",
     "typescript": "3.9.7",
+    "valtech.store-theme": "https://devsergio--valtech.myvtex.com/_v/private/typings/linked/v1/valtech.store-theme@5.2.0+build1743290273/public/@types/valtech.store-theme",
     "vtex.add-to-cart-button": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.add-to-cart-button@0.30.2/public/@types/vtex.add-to-cart-button",
     "vtex.breadcrumb": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.breadcrumb@1.9.5/public/@types/vtex.breadcrumb",
     "vtex.carousel": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.carousel@2.12.1/public/@types/vtex.carousel",
     "vtex.checkout-summary": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-summary@0.22.0/public/@types/vtex.checkout-summary",
     "vtex.condition-layout": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.condition-layout@2.8.1/public/@types/vtex.condition-layout",
     "vtex.css-handles": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@1.0.1/public/@types/vtex.css-handles",
+    "vtex.disclosure-layout": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.disclosure-layout@1.0.3/public/@types/vtex.disclosure-layout",
     "vtex.flex-layout": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.flex-layout@0.21.4/public/@types/vtex.flex-layout",
     "vtex.locale-switcher": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.locale-switcher@0.5.6/public/@types/vtex.locale-switcher",
     "vtex.login": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.login@2.66.0/public/@types/vtex.login",

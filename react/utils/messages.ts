@@ -101,7 +101,7 @@ export const messages = defineMessages({
   sendFileLabel: { id: 'admin/send.file.label' },
   importFileSuccessMessage: { id: 'admin/import.file.success.message' },
   importFileErrorMessage: { id: 'admin/import.file.error.message' },
-  affiliateLabel: { id: 'admin/affiliate.label' },
+  affiliateLabel: { id: 'admin/cookie-fortune.label' },
   editLabel: { id: 'admin/edit.label' },
   generalInfoLabel: { id: 'admin/general.info.label' },
   activeLabel: { id: 'admin/active.label' },
@@ -125,21 +125,21 @@ export const messages = defineMessages({
   instagramLabel: { id: 'admin/instagram.label' },
   whatsappLabel: { id: 'admin/whatsapp.label' },
   gtmIdLabel: { id: 'admin/gtm.id.label' },
-  editcookieFortuneuccessMessage: { id: 'admin/edit.affiliate.success.message' },
-  editCookieFortuneErrorMessage: { id: 'admin/edit.affiliate.error.message' },
+  editcookieFortuneuccessMessage: { id: 'admin/edit.cookie-fortune.success.message' },
+  editCookieFortuneErrorMessage: { id: 'admin/edit.cookie-fortune.error.message' },
   editCookieFortuneApproveTrueMessage: {
-    id: 'admin/edit.affiliate.approve.true.message',
+    id: 'admin/edit.cookie-fortune.approve.true.message',
   },
   editCookieFortuneApproveFalseMessage: {
-    id: 'admin/edit.affiliate.approve.false.message',
+    id: 'admin/edit.cookie-fortune.approve.false.message',
   },
   slugLabel: { id: 'admin/slug.label' },
   saveLabel: { id: 'admin/save.label' },
   formRequiredMessage: { id: 'admin/form.validation-required' },
   formInvalidEmail: { id: 'admin/form.validation-email' },
   formInvalidNumberField: { id: 'admin/form.validation-number' },
-  addCookieFortuneTitle: { id: 'admin/add.affiliate.title' },
-  addCookieFortuneErrorMessage: { id: 'admin/add.affiliate.error.message' },
+  addCookieFortuneTitle: { id: 'admin/add.cookie-fortune.title' },
+  addCookieFortuneErrorMessage: { id: 'admin/add.cookie-fortune.error.message' },
   exportLabel: { id: 'admin/export.label' },
   importFileSubtitle1: { id: 'admin/import.file.subtitle.1.text' },
   importFileSubtitleModel: { id: 'admin/import.file.subtitle.model.text' },
@@ -157,37 +157,37 @@ export const messages = defineMessages({
     id: 'admin/total.order.value.disclaimer.text',
   },
   noLastFileLabel: { id: 'admin/import.no.last.file.label' },
-  editCookieFortuneApproveStatusTitle: { id: 'admin/edit.affiliate.approve.title' },
+  editCookieFortuneApproveStatusTitle: { id: 'admin/edit.cookie-fortune.approve.title' },
 })
 
 export const storeMessages = defineMessages({
-  affiliateProfileButtonLabel: { id: 'store/affiliate.profile.button.label' },
-  affiliateProfileTitle: { id: 'store/affiliate.profile.title' },
+  affiliateProfileButtonLabel: { id: 'store/cookie-fortune.profile.button.label' },
+  affiliateProfileTitle: { id: 'store/cookie-fortune.profile.title' },
   affiliateProfileAccessStoreButton: {
-    id: 'store/affiliate.profile.access.store.label',
+    id: 'store/cookie-fortune.profile.access.store.label',
   },
   onGoingTitle: {
-    id: 'store/affiliate.profile.ongoing.title',
+    id: 'store/cookie-fortune.profile.ongoing.title',
   },
   cancelledTitle: {
-    id: 'store/affiliate.profile.cancelled.title',
+    id: 'store/cookie-fortune.profile.cancelled.title',
   },
   invoicedTitle: {
-    id: 'store/affiliate.profile.invoiced.title',
+    id: 'store/cookie-fortune.profile.invoiced.title',
   },
   dateProfileTable: {
-    id: 'store/affiliate.profile.table.dateTitle',
+    id: 'store/cookie-fortune.profile.table.dateTitle',
   },
   commissionProfileTable: {
-    id: 'store/affiliate.profile.table.commissionTitle',
+    id: 'store/cookie-fortune.profile.table.commissionTitle',
   },
   totalProfileTable: {
-    id: 'store/affiliate.profile.table.totlaTitle',
+    id: 'store/cookie-fortune.profile.table.totlaTitle',
   },
   prepositionProfileTable: {
-    id: 'store/affiliate.profile.table.prepositionTable',
+    id: 'store/cookie-fortune.profile.table.prepositionTable',
   },
-  affiliateProfileAvatarLogout: { id: 'store/affiliate.profile.avatar.logout' },
+  affiliateProfileAvatarLogout: { id: 'store/cookie-fortune.profile.avatar.logout' },
   cookieFortuneTableIsApprovedTextAny: {
     id: 'store/cookieFortune.table.isApproved.text.any',
   },
@@ -203,111 +203,111 @@ export const storeMessages = defineMessages({
     id: 'store/cookieFortuneOrders.table.emptyState',
   },
   affiliateProfileApprovedTooltip: {
-    id: 'store/affiliate.profile.approvedTooltip',
+    id: 'store/cookie-fortune.profile.approvedTooltip',
   },
   affiliateProfileCancelledTooltip: {
-    id: 'store/affiliate.profile.cancelledTooltip',
+    id: 'store/cookie-fortune.profile.cancelledTooltip',
   },
   affiliateProfileInvoicedTooltip: {
-    id: 'store/affiliate.profile.invoicedTooltip',
+    id: 'store/cookie-fortune.profile.invoicedTooltip',
   },
   affiliateProfileOrderItems: {
-    id: 'store/affiliate.profile.orderItems',
+    id: 'store/cookie-fortune.profile.orderItems',
   },
   affiliateProfileOrderItemsPrice: {
-    id: 'store/affiliate.profile.orderItemsPrice',
+    id: 'store/cookie-fortune.profile.orderItemsPrice',
   },
   affiliateProfileOrderItemsCommission: {
-    id: 'store/affiliate.profile.orderItemsCommission',
+    id: 'store/cookie-fortune.profile.orderItemsCommission',
   },
   affiliateProfileOrderItemsQuantity: {
-    id: 'store/affiliate.profile.orderItemsQuantity',
+    id: 'store/cookie-fortune.profile.orderItemsQuantity',
   },
   affiliateProfileOrderTitle: {
-    id: 'store/affiliate.profile.orderTitle',
+    id: 'store/cookie-fortune.profile.orderTitle',
   },
   affiliateProfileOrderDetails: {
-    id: 'store/affiliate.profile.orderDetails',
+    id: 'store/cookie-fortune.profile.orderDetails',
   },
   affiliateNameLabel: {
-    id: 'store/affiliate.nameLabel',
+    id: 'store/cookie-fortune.nameLabel',
   },
   affiliateNamePlaceholder: {
-    id: 'store/affiliate.namePlaceholder',
+    id: 'store/cookie-fortune.namePlaceholder',
   },
   cookieFortunetoreNameLabel: {
-    id: 'store/affiliate.storeNameLabel',
+    id: 'store/cookie-fortune.storeNameLabel',
   },
   affiliateEmailLabel: {
-    id: 'store/affiliate.emailLabel',
+    id: 'store/cookie-fortune.emailLabel',
   },
   affiliatePhoneLabel: {
-    id: 'store/affiliate.phoneLabel',
+    id: 'store/cookie-fortune.phoneLabel',
   },
   affiliateDocumentLabel: {
-    id: 'store/affiliate.documentLabel',
+    id: 'store/cookie-fortune.documentLabel',
   },
   affiliateDocumentTypeLabel: {
-    id: 'store/affiliate.documentTypeLabel',
+    id: 'store/cookie-fortune.documentTypeLabel',
   },
   cookieFortunelugLabel: {
-    id: 'store/affiliate.slugLabel',
+    id: 'store/cookie-fortune.slugLabel',
   },
   affiliateCEPLabel: {
-    id: 'store/affiliate.CEPLabel',
+    id: 'store/cookie-fortune.CEPLabel',
   },
   cookieFortunetreetLabel: {
-    id: 'store/affiliate.streetLabel',
+    id: 'store/cookie-fortune.streetLabel',
   },
   affiliateNumberLabel: {
-    id: 'store/affiliate.numberLabel',
+    id: 'store/cookie-fortune.numberLabel',
   },
   affiliateDistrictLabel: {
-    id: 'store/affiliate.districtLabel',
+    id: 'store/cookie-fortune.districtLabel',
   },
   affiliateReferenceLabel: {
-    id: 'store/affiliate.referenceLabel',
+    id: 'store/cookie-fortune.referenceLabel',
   },
   affiliateCityLabel: {
-    id: 'store/affiliate.cityLabel',
+    id: 'store/cookie-fortune.cityLabel',
   },
   cookieFortunetateLabel: {
-    id: 'store/affiliate.stateLabel',
+    id: 'store/cookie-fortune.stateLabel',
   },
   affiliateCountryLabel: {
-    id: 'store/affiliate.countryLabel',
+    id: 'store/cookie-fortune.countryLabel',
   },
   affiliateGeneralInfo: {
-    id: 'store/affiliate.generaInfo',
+    id: 'store/cookie-fortune.generaInfo',
   },
   affiliateAddressInfo: {
-    id: 'store/affiliate.AddressInfo',
+    id: 'store/cookie-fortune.AddressInfo',
   },
   cookieFortuneocialInfo: {
-    id: 'store/affiliate.SocialInfo',
+    id: 'store/cookie-fortune.SocialInfo',
   },
   affiliateRegisterButton: {
-    id: 'store/affiliate.registerButton',
+    id: 'store/cookie-fortune.registerButton',
   },
   affiliateFacebookLabel: {
-    id: 'store/affiliate.facebookLabel',
+    id: 'store/cookie-fortune.facebookLabel',
   },
   affiliateInstagramLabel: {
-    id: 'store/affiliate.instagramLabel',
+    id: 'store/cookie-fortune.instagramLabel',
   },
   affiliateWhatsappLabel: {
-    id: 'store/affiliate.whatsappLabel',
+    id: 'store/cookie-fortune.whatsappLabel',
   },
   affiliateGTMLabel: {
-    id: 'store/affiliate.gtmLabel',
+    id: 'store/cookie-fortune.gtmLabel',
   },
   affiliateWentWrong: {
-    id: 'store/affiliate.wentWrong',
+    id: 'store/cookie-fortune.wentWrong',
   },
   affiliateNoSpecial: {
-    id: 'store/affiliate.noSpecial',
+    id: 'store/cookie-fortune.noSpecial',
   },
   affiliateWentWell: {
-    id: 'store/affiliate.wentWell',
+    id: 'store/cookie-fortune.wentWell',
   },
 })
