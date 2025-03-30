@@ -12,7 +12,7 @@ This project extends the VTEX IO Store Theme boilerplate with a Cookie Fortune i
 ## Preview
 
 ### Frontend Implementation and Admin Interface
-![Cookie Fortune Frontend](https://user-images.githubusercontent.com/.../demo-speed.gif)  
+![Cookie Fortune Frontend](https://github.com/sergiotechlead/valtech/blob/develop/docs/demo-speed.gif?raw=true)
 *GIF showing the user journey from homepage banner to fortune display*
 
 ## Implementation Details
