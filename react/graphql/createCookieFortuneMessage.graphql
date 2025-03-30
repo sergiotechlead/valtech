@@ -1,0 +1,12 @@
+mutation createCookieFortuneMessage($CookieFortuneMessage:String){
+  createDocument(
+    acronym: "CF",
+    document:{
+      fields:{
+        key: "CookieFortune",
+        value: $CookieFortuneMessage
+      }
+    })@context(provider: "vtex.store-graphql"){
+    id
+  }
+}

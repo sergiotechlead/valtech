@@ -1,0 +1,11 @@
+query getMessagesForCookieFortune (
+  $page: Int!
+  $pageSize: Int!
+){
+  documents(acronym: "CF", page: $page, pageSize: $pageSize, fields:[ "id", "CookieFortune"]) @context(provider: "vtex.store-graphql"){
+    fields {
+      key
+      value
+    }
+  }
+}

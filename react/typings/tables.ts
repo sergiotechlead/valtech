@@ -30,7 +30,6 @@ export type TotalizersProfile = {
 export type cookieFortuneOrdersData = {
   id: string
   orderId: string
-  id: string
   status: string
   userEmail: string
   orderTotal: number

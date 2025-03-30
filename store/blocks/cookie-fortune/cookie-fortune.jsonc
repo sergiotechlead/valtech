@@ -1,0 +1,7 @@
+{
+  "store.custom#cookie-fortune": {
+    "children": [
+      "cookie-fortune-section"
+    ]
+  }
+}

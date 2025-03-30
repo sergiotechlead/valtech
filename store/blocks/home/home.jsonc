@@ -22,8 +22,11 @@
       "preload": true,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
+          "image": "https://raw.githubusercontent.com/sergiotechlead/valtech/refs/heads/develop/react/assets/banner-desktop.webp",
+          "mobileImage": "https://raw.githubusercontent.com/sergiotechlead/valtech/refs/heads/develop/react/assets/banner-mobile.webp",
+          "link":{
+            "url": "/cookie-fortune"
+          }
         },
         {
           "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
