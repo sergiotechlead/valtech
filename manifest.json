@@ -1,7 +1,7 @@
 {
   "vendor": "valtech",
   "name": "store-theme",
-  "version": "5.2.0",
+  "version": "5.2.1",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
