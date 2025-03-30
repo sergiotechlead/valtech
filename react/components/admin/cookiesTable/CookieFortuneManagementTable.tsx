@@ -136,7 +136,7 @@ const CookieFortuneManagementTable: FC = () => {
 
   const dataGridState = useTableState<TableColumns>({
     columns,
-    length: 10,
+    length: 15,
     items: data ? transformCookieData(data) : [],
     view,
   })

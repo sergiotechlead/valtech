@@ -13,12 +13,10 @@ import { messages } from '../../../utils/messages'
 import { useIntl } from 'react-intl'
 import DELETE_COOKIE_FORTUNE_MESSAGE from './../../../graphql/deleteCookieFortuneMessage.graphql'
 import { useMutation } from 'react-apollo'
-import { useRuntime } from 'vtex.render-runtime'
 
 export const DeleteButton = ({ item }) => {
   const intl = useIntl()
   const modal = useModalState()
-  const { navigate } = useRuntime()
   const [loading, setLoading] = useState(false)
 
   const [deleteCookieFortuneMessage, { loading: deleteMutationLoading }] = useMutation(
@@ -27,10 +25,7 @@ export const DeleteButton = ({ item }) => {
       variables: { messageId: item.id },
       onCompleted: () => {
         setLoading(true)
-        navigate({
-          page: 'admin.app.cookie-fortune.cookie-fortune-management'
-        })
-        modal.toggle()
+        window.location.reload()
       }
     }
   )
@@ -50,7 +45,9 @@ export const DeleteButton = ({ item }) => {
 
       <Modal aria-label={item?.CookieFortune} state={modal}>
         <ModalHeader>
-          <div className="mr-auto">
+          <div className="mr-auto" style={{
+            minWidth: "30vw"
+          }}>
             {intl.formatMessage(messages.cookieFortuneTableModalLabel)}
           </div>
         </ModalHeader>

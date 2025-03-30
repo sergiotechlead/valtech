@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import {
   Button,
   useModalState,
@@ -12,15 +12,13 @@ import { useIntl } from 'react-intl'
 import CREATE_COOKIE_FORTUNE_MESSAGE from './../../../graphql/createCookieFortuneMessage.graphql'
 import { useMutation } from 'react-apollo'
 
-import { useRuntime } from 'vtex.render-runtime'
-
-import { Form, useFormState, TextInput } from '@vtex/admin-ui-form'
+import { Form, useFormState, TextArea } from '@vtex/admin-ui-form'
 
 export const AddCookieFortuneMessage = () => {
 
   const intl = useIntl()
   const modal = useModalState()
-  const { navigate } = useRuntime()
+  const [loading, setLoading] = useState(false)
 
   const [
     createCookieFortuneMessage,
@@ -31,10 +29,8 @@ export const AddCookieFortuneMessage = () => {
 
   useEffect(() => {
     if(creationCompleted){
-      navigate({
-        page: 'admin.app.cookie-fortune.cookie-fortune-management'
-      })
-      modal.toggle()
+      setLoading(true)
+      window.location.reload()
     }
     console.log("UseEffect 1")
   }, [creationCompleted])
@@ -57,17 +53,24 @@ export const AddCookieFortuneMessage = () => {
       </Button>
       <Modal aria-label={intl.formatMessage(messages.cookieFortuneTableModalLabel)} state={modal}>
         <ModalHeader>
-          <div className='mr-auto'>
+          <div className='mr-auto' style={{
+            minWidth: "30vw"
+          }}>
             {intl.formatMessage(messages.cookieFortuneTableModalLabel)}
           </div>
         </ModalHeader>
         <ModalContent>
           <Form state={form} onSubmit={handleSubmit}>
-              <TextInput
-                  name="Message"
-                  state={form}
-              />
-              <Button loading={createMutationLoading} type="submit">Submit</Button>
+              <div>
+                <TextArea
+                    name="Message"
+                    state={form}
+                    maxLength={120}
+                />
+                <Button size="large" variant="primary" loading={createMutationLoading || loading} type="submit">
+                  {intl.formatMessage(messages.addCookieFortuneTitle)}
+                </Button>
+              </div>
           </Form>
         </ModalContent>
       </Modal>
