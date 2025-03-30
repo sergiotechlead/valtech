@@ -9,34 +9,34 @@ export const messages = defineMessages({
   dateFilterTo: { id: 'admin/table.dateFilter.to.label' },
   tableNoResults: { id: 'admin/table.noData.text' },
   tableDataError: { id: 'admin/table.error.text' },
-  cookieFortunePageHeaderTitle: { id: 'admin/cookieFortune.page.title' },
+  cookieFortunePageHeaderTitle: { id: 'admin/cookie-fortune.page.title' },
   cookieFortuneTableSearchPlaceholder: {
-    id: 'admin/cookieFortune.table.search.placeholder',
+    id: 'admin/cookie-fortune.table.search.placeholder',
   },
   cookieFortuneTableidColumnLabel: {
-    id: 'admin/cookieFortune.table.id.header',
+    id: 'admin/cookie-fortune.table.id.header',
   },
-  cookieFortuneTableNameColumnLabel: { id: 'admin/cookieFortune.table.name.header' },
+  cookieFortuneTableNameColumnLabel: { id: 'admin/cookie-fortune.table.name.header' },
   cookieFortuneTableStoreNameColumnLabel: {
-    id: 'admin/cookieFortune.table.storeName.header',
+    id: 'admin/cookie-fortune.table.storeName.header',
   },
   cookieFortuneTableEmailColumnLabel: {
-    id: 'admin/cookieFortune.table.email.header',
+    id: 'admin/cookie-fortune.table.email.header',
   },
   cookieFortuneTablePhoneColumnLabel: {
-    id: 'admin/cookieFortune.table.phone.header',
+    id: 'admin/cookie-fortune.table.phone.header',
   },
-  cookieFortuneTableIsApprovedColumnLabel: {
-    id: 'admin/cookieFortune.table.isApproved.header',
+  cookieFortuneTableModalLabel: {
+    id: 'admin/cookie-fortune.table.cookie.modal.header',
   },
   cookieFortuneTableIsApprovedTextTrue: {
-    id: 'admin/cookieFortune.table.isApproved.text.true',
+    id: 'admin/cookie-fortune.table.isApproved.text.true',
   },
   cookieFortuneTableIsApprovedTextFalse: {
-    id: 'admin/cookieFortune.table.isApproved.text.false',
+    id: 'admin/cookie-fortune.table.isApproved.text.false',
   },
   cookieFortuneTableIsApprovedTextAny: {
-    id: 'admin/cookieFortune.table.isApproved.text.any',
+    id: 'admin/cookie-fortune.table.isApproved.text.any',
   },
   dashboardPageHeaderTitle: { id: 'admin/dashboard.page.title' },
   cookieFortuneOrdersTableSearchPlaceholder: {
@@ -57,8 +57,8 @@ export const messages = defineMessages({
   cookieFortuneOrdersTableOrderTotalColumnLabel: {
     id: 'admin/cookieFortuneOrders.table.orderTotal.header',
   },
-  cookieFortuneOrdersTableOrderTotalCommissionColumnLabel: {
-    id: 'admin/cookieFortuneOrders.table.orderTotalCommission.header',
+  cookieFortuneOrdersTableDeleteButton: {
+    id: 'admin/navigation.delete-button.label',
   },
   commissionsTableSearchPlaceholder: {
     id: 'admin/commissions.table.search.placeholder',
@@ -189,7 +189,7 @@ export const storeMessages = defineMessages({
   },
   affiliateProfileAvatarLogout: { id: 'store/cookie-fortune.profile.avatar.logout' },
   cookieFortuneTableIsApprovedTextAny: {
-    id: 'store/cookieFortune.table.isApproved.text.any',
+    id: 'store/cookie-fortune.table.isApproved.text.any',
   },
   dateFilterFrom: { id: 'store/table.dateFilter.from.label' },
   dateFilterTo: { id: 'store/table.dateFilter.to.label' },

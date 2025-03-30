@@ -28,6 +28,11 @@
     "husky": "^4.2.3",
     "lint-staged": "^10.1.1",
     "prettier": "^2.0.2",
-    "typescript": "^3.8.3"
+    "typescript": "^3.8.3",
+    "@types/node": "^12.12.21",
+    "@vtex/danger": "^0.2.7"
+  },
+  "dependencies": {
+    "formik": "^2.2.9"
   }
 }

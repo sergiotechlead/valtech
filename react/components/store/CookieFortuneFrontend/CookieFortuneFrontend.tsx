@@ -59,12 +59,14 @@ export default function CookieFortuneFrontend(): JSX.Element {
   const [fortunes, setFortunes] = useState<string[]>([]);
 
   useEffect(() => {
+    console.log("UseEffect 5")
     if(cookieFortunes){
       setFortunes(getCookieFortunes(cookieFortunes))
     }
   }, [cookieFortunes])
 
   useEffect(() => {
+    console.log("UseEffect 6")
     setIsComponentReady(true)
   }, [])
 

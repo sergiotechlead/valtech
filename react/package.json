@@ -13,6 +13,7 @@
     "formik": "^2.2.9",
     "react": "^16.12.0",
     "react-apollo": "^3.1.3",
+    "react-collapsed": "^4.2.0",
     "react-dom": "^16.12.0",
     "react-intl": "^5.24.3",
     "uuid": "^8.3.2",
@@ -20,7 +21,11 @@
     "yup": "^0.32.11"
   },
   "resolutions": {
-    "graphql": "^14.6.0"
+    "graphql": "^14.6.0",
+    "react-collapsed": "3.3.1"
+  },
+  "browser": {
+    "react-collapsed/dist/index.mjs": "react-collapsed/dist/index.js"
   },
   "devDependencies": {
     "@apollo/react-testing": "^3.1.3",
@@ -33,8 +38,8 @@
     "apollo-cache-inmemory": "^1.6.5",
     "graphql": "^14.6.0",
     "typescript": "3.9.7",
-    "valtech.store-theme": "https://devsergio--valtech.myvtex.com/_v/private/typings/linked/v1/valtech.store-theme@5.2.0+build1743290273/public/@types/valtech.store-theme",
     "vtex.add-to-cart-button": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.add-to-cart-button@0.30.2/public/@types/vtex.add-to-cart-button",
+    "vtex.admin": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.admin@4.66.1-hkignore.0/public/@types/vtex.admin",
     "vtex.breadcrumb": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.breadcrumb@1.9.5/public/@types/vtex.breadcrumb",
     "vtex.carousel": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.carousel@2.12.1/public/@types/vtex.carousel",
     "vtex.checkout-summary": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-summary@0.22.0/public/@types/vtex.checkout-summary",
@@ -78,6 +83,7 @@
     "vtex.store-drawer": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-drawer@0.18.1/public/@types/vtex.store-drawer",
     "vtex.store-footer": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-footer@2.27.0/public/@types/vtex.store-footer",
     "vtex.store-form": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-form@0.10.1/public/@types/vtex.store-form",
+    "vtex.store-graphql": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-graphql@2.173.0/public/@types/vtex.store-graphql",
     "vtex.store-header": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-header@2.29.0/public/@types/vtex.store-header",
     "vtex.store-icons": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-icons@0.18.0/public/@types/vtex.store-icons",
     "vtex.store-image": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-image@0.23.1/public/@types/vtex.store-image",

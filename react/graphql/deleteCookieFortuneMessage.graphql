@@ -1,0 +1,8 @@
+mutation deleteCookieFortuneMessage($messageId:String!){
+  deleteDocument(
+    acronym: "CF",
+    documentId:$messageId
+  )@context(provider: "vtex.store-graphql"){
+    id
+  }
+}
